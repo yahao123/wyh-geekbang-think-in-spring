@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ioc-container-overview" />
+        <module name="think-spring-bean" />
+        <module name="dependency-injection" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dependency-injection" target="8" />
+      <module name="ioc-container-overview" target="8" />
+      <module name="think-spring-bean" target="8" />
+      <module name="wyh-geekbang-think-in-spring" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
