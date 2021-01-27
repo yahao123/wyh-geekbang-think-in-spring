@@ -23,11 +23,9 @@ public class User {
     }
 
     public User() {
-        System.out.println("无参构造初始化User");
     }
 
     public User(String name, Integer age) {
-        System.out.println("有参构造初始化User");
         this.name = name;
         this.age = age;
     }
