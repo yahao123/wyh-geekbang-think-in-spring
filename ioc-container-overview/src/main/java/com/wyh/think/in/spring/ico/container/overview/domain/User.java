@@ -1,5 +1,8 @@
 package com.wyh.think.in.spring.ico.container.overview.domain;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 public class User {
 
     private String name;
@@ -36,5 +39,16 @@ public class User {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @PostConstruct
+    public void init(){
+        System.out.println("初始化User");
+    }
+
+
+    @PreDestroy
+    public void destory(){
+        System.out.println("销毁User");
     }
 }
